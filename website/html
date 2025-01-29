@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billionaires Blueprint</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Billionaires Blueprint</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="billionaires.html" class="active">Billionaires</a>
+            <a href="compare.html">Compare</a>
+            <a href="inspiration.html">Inspiration</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="intro">
+            <h2>Discover the Stories Behind the Wealthiest People</h2>
+            <p>Explore and learn about billionaires, their journeys, and their net worth.</p>
+        </section>
+
+        <section class="search-filter">
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search by name...">
+            </div>
+            <div class="filters">
+                <select id="industryFilter">
+                    <option value="">All Industries</option>
+                    <option value="Technology">Technology</option>
+                    <option value="Finance">Finance</option>
+                    <option value="Retail">Retail</option>
+                </select>
+                <select id="countryFilter">
+                    <option value="">All Countries</option>
+                    <option value="USA">USA</option>
+                    <option value="France">France</option>
+                    <option value="China">China</option>
+                </select>
+            </div>
+        </section>
+
+        <section class="billionaires-list-container">
+            <div id="billionairesList" class="billionaires-list">
+                <!-- Dynamic content will load here -->
+            </div>
+        </section>
+
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span id="closeModal" class="close">&times;</span>
+                <h2 id="modalName"></h2>
+                <p><strong>Net Worth:</strong> <span id="modalNetWorth"></span></p>
+                <p><strong>Industry:</strong> <span id="modalCategory"></span></p>
+                <p><strong>Country:</strong> <span id="modalCountry"></span></p>
+                <p><strong>Organization:</strong> <span id="modalOrganization"></span></p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Billionaires Blueprint. All rights reserved.</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

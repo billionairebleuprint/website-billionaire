@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tools and Books</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="js/scripts.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Tools & Books</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="billionaires.html">Billionaires</a>
+            <a href="quotes.html">Quotes</a>
+            <a href="tools-books.html" class="active">Tools & Books</a>
+            <a href="inspiration.html">Inspiration</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <h2>Recommended Tools & Books</h2>
+        <section class="tools-books-grid" id="toolsBooksList">
+            <!-- Dynamically loaded tools and books will appear here -->
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Tools and Books Hub. All rights reserved.</p>
+    </footer>
+
+    <!-- Script to Load JSON Data -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            fetch('data/tools-books.json')
+                .then(response => response.json())
+                .then(data => {
+                    const container = document.getElementById('toolsBooksList');
+                    data.forEach(item => {
+                        const card = document.createElement('div');
+                        card.className = 'tools-books-item';
+                        card.innerHTML = `
+                            <h3>${item.name}</h3>
+                            <p>${item.description}</p>
+                            <p class="price">Price: ${item.price || 'N/A'}</p>
+                            <a href="${item.url}" target="_blank">Buy Now</a>
+                        `;
+                        container.appendChild(card);
+                    });
+                })
+                .catch(error => {
+                    console.error('Error loading tools and books:', error);
+                    const container = document.getElementById('toolsBooksList');
+                    container.innerHTML = `<p class="error">Failed to load tools and books. Please try again later.</p>`;
+                });
+        });
+    </script>
+</body>
+</html>

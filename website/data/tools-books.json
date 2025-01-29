@@ -1,0 +1,375 @@
+[
+    {
+        "name": "The Lean Startup",
+        "type": "Book",
+        "author": "Eric Ries",
+        "price": "$20.99",
+        "url": "https://www.amazon.com/dp/0307887898",
+        "description": "A guide to building a successful startup using lean methodologies."
+    },
+    {
+        "name": "Atomic Habits",
+        "type": "Book",
+        "author": "James Clear",
+        "price": "$16.20",
+        "url": "https://www.amazon.com/dp/0735211299",
+        "description": "An exploration of small changes that lead to big habits."
+    },
+    {
+        "name": "Zero to One",
+        "type": "Book",
+        "author": "Peter Thiel",
+        "price": "$14.99",
+        "url": "https://www.amazon.com/dp/0804139296",
+        "description": "Insights on creating innovative companies."
+    },
+    {
+        "name": "Asana",
+        "type": "Tool",
+        "price": "Free",
+        "url": "https://asana.com",
+        "description": "A project management tool for teams to track work efficiently."
+    },
+    {
+        "name": "Notion",
+        "type": "Tool",
+        "price": "Free",
+        "url": "https://www.notion.so",
+        "description": "An all-in-one workspace for notes, databases, and collaboration."
+    },
+    {
+        "name": "Slack",
+        "type": "Tool",
+        "price": "Free",
+        "url": "https://slack.com",
+        "description": "A communication platform for teams to stay connected and organized."
+    },
+    {
+        "name": "The Hard Thing About Hard Things",
+        "type": "Book",
+        "author": "Ben Horowitz",
+        "price": "$17.50",
+        "url": "https://www.amazon.com/dp/0062273205",
+        "description": "Lessons on building, scaling, and running a business."
+    },
+    {
+        "name": "Good to Great",
+        "type": "Book",
+        "author": "Jim Collins",
+        "price": "$15.80",
+        "url": "https://www.amazon.com/dp/0066620996",
+        "description": "Why some companies make the leap and others don't."
+    },
+    {
+        "name": "Trello",
+        "type": "Tool",
+        "price": "Free",
+        "url": "https://trello.com",
+        "description": "A visual collaboration tool for organizing projects and tasks."
+    },
+    {
+        "name": "Evernote",
+        "type": "Tool",
+        "price": "Free",
+        "url": "https://evernote.com",
+        "description": "A tool for capturing, organizing, and sharing ideas seamlessly."
+    },
+    {
+        "name": "Deep Work",
+        "type": "Book",
+        "author": "Cal Newport",
+        "price": "$14.95",
+        "url": "https://www.amazon.com/dp/1455586692",
+        "description": "Rules for focused success in a distracted world."
+    },
+    {
+        "name": "Mindset: The New Psychology of Success",
+        "type": "Book",
+        "author": "Carol S. Dweck",
+        "price": "$10.50",
+        "url": "https://www.amazon.com/dp/0345472322",
+        "description": "How mindset influences success and personal growth."
+    },
+    {
+        "name": "Figma",
+        "type": "Tool",
+        "price": "Free",
+        "url": "https://www.figma.com",
+        "description": "A collaborative interface design tool for creating prototypes."
+    },
+    {
+        "name": "Canva",
+        "type": "Tool",
+        "price": "Free",
+        "url": "https://www.canva.com",
+        "description": "A graphic design tool for creating visuals easily."
+    },
+    {
+        "name": "Getting Things Done",
+        "type": "Book",
+        "author": "David Allen",
+        "price": "$18.00",
+        "url": "https://www.amazon.com/dp/0142000280",
+        "description": "The art of stress-free productivity."
+    },
+    {
+        "name": "The 7 Habits of Highly Effective People",
+        "type": "Book",
+        "author": "Stephen R. Covey",
+        "price": "$12.75",
+        "url": "https://www.amazon.com/dp/0743269519",
+        "description": "Principles for personal and professional effectiveness."
+    },
+    {
+        "name": "Zoom",
+        "type": "Tool",
+        "price": "Free",
+        "url": "https://zoom.us",
+        "description": "A video communication platform for remote work and meetings."
+    },
+    {
+        "name": "Grammarly",
+        "type": "Tool",
+        "price": "Free",
+        "url": "https://www.grammarly.com",
+        "description": "A tool to improve your writing with grammar and style suggestions."
+    },
+    {
+        "name": "The Innovator's Dilemma",
+        "type": "Book",
+        "author": "Clayton M. Christensen",
+        "price": "$15.90",
+        "url": "https://www.amazon.com/dp/0062060244",
+        "description": "When new technologies cause great firms to fail."
+    },
+    {
+        "name": "Hooked: How to Build Habit-Forming Products",
+        "type": "Book",
+        "author": "Nir Eyal",
+        "price": "$13.80",
+        "url": "https://www.amazon.com/dp/1591847788",
+        "description": "A guide to building products that capture user interest."
+    },
+    {
+        "name": "Airtable",
+        "type": "Tool",
+        "price": "Free",
+        "url": "https://www.airtable.com",
+        "description": "A flexible and collaborative database tool for teams and individuals."
+    },
+    {
+        "name": "Zapier",
+        "type": "Tool",
+        "price": "Free",
+        "url": "https://zapier.com",
+        "description": "A tool to automate workflows by connecting different apps."
+    },
+    {
+        "name": "Essentialism: The Disciplined Pursuit of Less",
+        "type": "Book",
+        "author": "Greg McKeown",
+        "price": "$20.00",
+        "url": "https://www.amazon.com/dp/0804137382",
+        "description": "A guide to focusing on what really matters in life and work."
+    },
+    {
+        "name": "Sprint: How to Solve Big Problems and Test New Ideas in Just Five Days",
+        "type": "Book",
+        "author": "Jake Knapp",
+        "price": "$14.99",
+        "url": "https://www.amazon.com/dp/150112174X",
+        "description": "A practical guide to solving big problems quickly."
+    },
+    {
+        "name": "Google Workspace",
+        "type": "Tool",
+        "price": "Free",
+        "url": "https://workspace.google.com",
+        "description": "A suite of productivity and collaboration tools for teams."
+    },
+    {
+        "name": "Miro",
+        "type": "Tool",
+        "price": "Free",
+        "url": "https://miro.com",
+        "description": "An online collaborative whiteboard platform."
+    },
+    {
+        "name": "Rework",
+        "type": "Book",
+        "author": "Jason Fried & David Heinemeier Hansson",
+        "price": "$12.00",
+        "url": "https://www.amazon.com/dp/0307463745",
+        "description": "A guide for anyone dreaming of doing work on their own terms."
+    },
+    {
+        "name": "Think and Grow Rich",
+        "type": "Book",
+        "author": "Napoleon Hill",
+        "price": "$9.99",
+        "url": "https://www.amazon.com/dp/1585424331",
+        "description": "A classic guide to achieving success and building wealth."
+    },
+    {
+        "name": "Basecamp",
+        "type": "Tool",
+        "price": "Free",
+        "url": "https://basecamp.com",
+        "description": "A tool for project management and team collaboration."
+    },
+    {
+        "name": "Todoist",
+        "type": "Tool",
+        "price": "Free",
+        "url": "https://todoist.com",
+        "description": "A productivity app for task and project management."
+    },
+    {
+        "name": "The Subtle Art of Not Giving a F*ck",
+        "type": "Book",
+        "author": "Mark Manson",
+        "price": "$14.95",
+        "url": "https://www.amazon.com/dp/0062457713",
+        "description": "A counterintuitive approach to living a good life."
+    },
+    {
+        "name": "How to Win Friends and Influence People",
+        "type": "Book",
+        "author": "Dale Carnegie",
+        "price": "$9.99",
+        "url": "https://www.amazon.com/dp/0671027034",
+        "description": "Timeless principles for building strong relationships and influence."
+    },
+    {
+        "name": "Loom",
+        "type": "Tool",
+        "price": "Free",
+        "url": "https://www.loom.com",
+        "description": "A video messaging tool for recording and sharing videos quickly."
+    },
+    {
+        "name": "Microsoft Teams",
+        "type": "Tool",
+        "price": "Free",
+        "url": "https://www.microsoft.com/microsoft-teams",
+        "description": "A collaboration tool for teams to chat, meet, and work together."
+    },
+    {
+        "name": "The Four-Hour Work Week",
+        "type": "Book",
+        "author": "Tim Ferriss",
+        "price": "$16.99",
+        "url": "https://www.amazon.com/dp/0307465357",
+        "description": "Escape the 9-to-5 and create a life of freedom and wealth."
+    },
+    {
+        "name": "Jira",
+        "type": "Tool",
+        "price": "Free",
+        "url": "https://www.atlassian.com/software/jira",
+        "description": "A tool for agile project management and issue tracking."
+    },
+    {
+        "name": "Monday.com",
+        "type": "Tool",
+        "price": "Free",
+        "url": "https://monday.com",
+        "description": "A work operating system to manage projects and teams."
+    },
+    {
+        "name": "Creativity, Inc.",
+        "type": "Book",
+        "author": "Ed Catmull",
+        "price": "$15.95",
+        "url": "https://www.amazon.com/dp/0812993012",
+        "description": "Lessons on fostering creativity and innovation in teams."
+    },
+    {
+        "name": "Superhuman",
+        "type": "Tool",
+        "price": "$30/month",
+        "url": "https://superhuman.com",
+        "description": "An email tool designed for speed and productivity."
+    },
+    {
+        "name": "Calendly",
+        "type": "Tool",
+        "price": "Free",
+        "url": "https://calendly.com",
+        "description": "A scheduling tool to streamline meeting bookings."
+    },
+    {
+        "name": "The Personal MBA",
+        "type": "Book",
+        "author": "Josh Kaufman",
+        "price": "$18.99",
+        "url": "https://www.amazon.com/dp/1591845572",
+        "description": "Master the foundations of business without a formal MBA."
+    },
+    {
+        "name": "Obsidian",
+        "type": "Tool",
+        "price": "Free",
+        "url": "https://obsidian.md",
+        "description": "A powerful note-taking tool that helps you organize your thoughts."
+    },
+    {
+        "name": "OneNote",
+        "type": "Tool",
+        "price": "Free",
+        "url": "https://www.microsoft.com/microsoft-365/onenote",
+        "description": "A digital notebook to keep all your notes organized."
+    },
+    {
+        "name": "The Art of War",
+        "type": "Book",
+        "author": "Sun Tzu",
+        "price": "$6.95",
+        "url": "https://www.amazon.com/dp/1599869772",
+        "description": "Ancient principles of strategy and leadership."
+    },
+    {
+        "name": "Dropbox",
+        "type": "Tool",
+        "price": "Free",
+        "url": "https://dropbox.com",
+        "description": "A cloud storage platform for file sharing and collaboration."
+    },
+    {
+        "name": "The Psychology of Money",
+        "type": "Book",
+        "author": "Morgan Housel",
+        "price": "$18.99",
+        "url": "https://www.amazon.com/dp/0857197681",
+        "description": "Timeless lessons on wealth, greed, and happiness."
+    },
+    {
+        "name": "Toggl Track",
+        "type": "Tool",
+        "price": "Free",
+        "url": "https://toggl.com/track/",
+        "description": "A time tracking tool for individuals and teams."
+    },
+    {
+        "name": "The 10X Rule",
+        "type": "Book",
+        "author": "Grant Cardone",
+        "price": "$22.95",
+        "url": "https://www.amazon.com/dp/0470627605",
+        "description": "Learn how to achieve massive success by taking massive action."
+    },
+    {
+        "name": "Robinhood",
+        "type": "Tool",
+        "price": "Free",
+        "url": "https://robinhood.com",
+        "description": "An app for commission-free stock and crypto trading."
+    },
+    {
+        "name": "Coursera",
+        "type": "Tool",
+        "price": "Free",
+        "url": "https://www.coursera.org",
+        "description": "An online learning platform offering courses from top universities."
+    }
+]

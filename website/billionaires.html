@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billionaires - Billionaires Blueprint</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Billionaires Blueprint</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="billionaires.html" class="active">Billionaires</a>
+            <a href="compare.html">Compare</a>
+            <a href="inspiration.html">Inspiration</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="billionaires-section">
+            <h2>Explore the World's Wealthiest Individuals</h2>
+            <p>Search and filter to learn more about the world's top billionaires.</p>
+
+            <!-- Zoekbalk -->
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search by name...">
+            </div>
+
+            <!-- Filters -->
+            <div class="filters">
+                <select id="industryFilter">
+                    <option value="">All Industries</option>
+                    <option value="Technology">Technology</option>
+                    <option value="E-commerce">E-commerce</option>
+                    <option value="Luxury Goods">Luxury Goods</option>
+                    <option value="Energy">Energy</option>
+                    <option value="Finance">Finance</option>
+                    <option value="Fashion">Fashion</option>
+                </select>
+                <select id="countryFilter">
+                    <option value="">All Countries</option>
+                    <option value="USA">USA</option>
+                    <option value="France">France</option>
+                    <option value="China">China</option>
+                    <option value="India">India</option>
+                    <option value="UK">UK</option>
+                </select>
+            </div>
+
+            <!-- Sorteren -->
+            <div class="sort-options">
+                <button id="sortNetWorth">Sort by Net Worth</button>
+                <button id="sortAge">Sort by Age</button>
+                <button id="sortCountry">Sort by Country</button>
+            </div>
+
+            <!-- Dynamische lijst met miljardairs -->
+            <div id="billionairesList" class="billionaires-list">
+                <!-- Dynamische inhoud wordt hier geladen door JavaScript -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Billionaires Blueprint. All rights reserved.</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
